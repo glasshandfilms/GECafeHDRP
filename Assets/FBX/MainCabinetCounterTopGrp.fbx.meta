@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: abdc8e8055d543a4dbe80e92bd652ed8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: kitchen_detail_01
+    100002: kitchen_detail_02
+    100004: kitchen_detail_03
+    100006: //RootNode
+    100008: pen_07_1
+    100010: slab_02
+    100012: kitchen_detail_01_LOD1
+    100014: kitchen_detail_01_LOD2
+    100016: kitchen_detail_01_LOD3
+    100018: kitchen_detail_02_LOD1
+    100020: kitchen_detail_02_LOD2
+    100022: kitchen_detail_02_LOD3
+    100024: kitchen_detail_03_LOD1
+    100026: kitchen_detail_03_LOD2
+    100028: kitchen_detail_03_LOD3
+    100030: LOD_0
+    100032: LOD_1
+    100034: LOD_2
+    100036: LOD_3
+    100038: pen_07_1_LOD1
+    100040: pen_07_1_LOD2
+    100042: pen_07_1_LOD3
+    100044: slab_02_LOD1
+    100046: slab_02_LOD2
+    100048: slab_02_LOD3
+    400000: kitchen_detail_01
+    400002: kitchen_detail_02
+    400004: kitchen_detail_03
+    400006: //RootNode
+    400008: pen_07_1
+    400010: slab_02
+    400012: kitchen_detail_01_LOD1
+    400014: kitchen_detail_01_LOD2
+    400016: kitchen_detail_01_LOD3
+    400018: kitchen_detail_02_LOD1
+    400020: kitchen_detail_02_LOD2
+    400022: kitchen_detail_02_LOD3
+    400024: kitchen_detail_03_LOD1
+    400026: kitchen_detail_03_LOD2
+    400028: kitchen_detail_03_LOD3
+    400030: LOD_0
+    400032: LOD_1
+    400034: LOD_2
+    400036: LOD_3
+    400038: pen_07_1_LOD1
+    400040: pen_07_1_LOD2
+    400042: pen_07_1_LOD3
+    400044: slab_02_LOD1
+    400046: slab_02_LOD2
+    400048: slab_02_LOD3
+    2100000: wood_04
+    2100002: SMEG_metal_01
+    2100004: wood_02
+    2300000: kitchen_detail_01
+    2300002: kitchen_detail_02
+    2300004: kitchen_detail_03
+    2300006: pen_07_1
+    2300008: slab_02
+    2300010: kitchen_detail_01_LOD1
+    2300012: kitchen_detail_01_LOD2
+    2300014: kitchen_detail_01_LOD3
+    2300016: kitchen_detail_02_LOD1
+    2300018: kitchen_detail_02_LOD2
+    2300020: kitchen_detail_02_LOD3
+    2300022: kitchen_detail_03_LOD1
+    2300024: kitchen_detail_03_LOD2
+    2300026: kitchen_detail_03_LOD3
+    2300028: pen_07_1_LOD1
+    2300030: pen_07_1_LOD2
+    2300032: pen_07_1_LOD3
+    2300034: slab_02_LOD1
+    2300036: slab_02_LOD2
+    2300038: slab_02_LOD3
+    3300000: kitchen_detail_01
+    3300002: kitchen_detail_02
+    3300004: kitchen_detail_03
+    3300006: pen_07_1
+    3300008: slab_02
+    3300010: kitchen_detail_01_LOD1
+    3300012: kitchen_detail_01_LOD2
+    3300014: kitchen_detail_01_LOD3
+    3300016: kitchen_detail_02_LOD1
+    3300018: kitchen_detail_02_LOD2
+    3300020: kitchen_detail_02_LOD3
+    3300022: kitchen_detail_03_LOD1
+    3300024: kitchen_detail_03_LOD2
+    3300026: kitchen_detail_03_LOD3
+    3300028: pen_07_1_LOD1
+    3300030: pen_07_1_LOD2
+    3300032: pen_07_1_LOD3
+    3300034: slab_02_LOD1
+    3300036: slab_02_LOD2
+    3300038: slab_02_LOD3
+    4300000: kitchen_detail_03
+    4300002: pen_07_1
+    4300004: kitchen_detail_02
+    4300006: kitchen_detail_01
+    4300008: slab_02
+    4300010: kitchen_detail_03_LOD1
+    4300012: pen_07_1_LOD1
+    4300014: kitchen_detail_02_LOD1
+    4300016: kitchen_detail_01_LOD1
+    4300018: slab_02_LOD1
+    4300020: kitchen_detail_03_LOD2
+    4300022: pen_07_1_LOD2
+    4300024: kitchen_detail_02_LOD2
+    4300026: kitchen_detail_01_LOD2
+    4300028: slab_02_LOD2
+    4300030: kitchen_detail_03_LOD3
+    4300032: pen_07_1_LOD3
+    4300034: kitchen_detail_02_LOD3
+    4300036: kitchen_detail_01_LOD3
+    4300038: slab_02_LOD3
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -22,6 +22,7 @@ MonoBehaviour:
   - {fileID: 114823059830506640}
   - {fileID: 114028352064248816}
   - {fileID: 114446074366093368}
+  - {fileID: 114419178571055608}
 --- !u!114 &114028352064248816
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -173,6 +174,50 @@ MonoBehaviour:
     m_Value: 1
     min: 0
     max: 1
+--- !u!114 &114419178571055608
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b145d2b9ee1ac4f846968484e7485a, type: 3}
+  m_Name: ContactShadows
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  length:
+    m_OverrideState: 1
+    m_Value: 0.15
+    min: 0
+    max: 1
+  opacity:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 1
+  distanceScaleFactor:
+    m_OverrideState: 1
+    m_Value: 0.5
+    min: 0
+    max: 1
+  maxDistance:
+    m_OverrideState: 1
+    m_Value: 50
+    min: 0
+  fadeDistance:
+    m_OverrideState: 1
+    m_Value: 5
+    min: 0
+  sampleCount:
+    m_OverrideState: 1
+    m_Value: 8
+    min: 4
+    max: 64
 --- !u!114 &114446074366093368
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -209,11 +254,11 @@ MonoBehaviour:
   active: 1
   indirectSpecularIntensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.45
     min: 0
   indirectDiffuseIntensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.68
     min: 0
 --- !u!114 &114635279072307572
 MonoBehaviour:
@@ -347,7 +392,7 @@ MonoBehaviour:
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 1.65
+    m_Value: 3.13
   multiplier:
     m_OverrideState: 1
     m_Value: 3.74

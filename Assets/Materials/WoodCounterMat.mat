@@ -30,7 +30,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
         m_Texture: {fileID: 2800000, guid: 7ca9d075f314eba4f9215b8d8972d2a6, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 2.43, y: 4.84}
         m_Offset: {x: 0, y: 0}
     - _BentNormalMap:
         m_Texture: {fileID: 0}
@@ -110,7 +110,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AORemapMax: 1
-    - _AORemapMin: 0.98777056
+    - _AORemapMin: 0.6769515
     - _ATDistance: 1
     - _AlbedoAffectEmissive: 0
     - _AlphaCutoff: 0.5
@@ -168,7 +168,7 @@ Material:
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
     - _InitialBend: 1
-    - _InvTilingScale: 1
+    - _InvTilingScale: 0.27510315
     - _Ior: 1
     - _IridescenceMask: 1
     - _IridescenceThickness: 1
@@ -189,8 +189,8 @@ Material:
     - _ShiverDirectionality: 0.5
     - _ShiverDrag: 0.2
     - _Smoothness: 1
-    - _SmoothnessRemapMax: 0.58607715
-    - _SmoothnessRemapMin: 0.08153027
+    - _SmoothnessRemapMax: 0.8371232
+    - _SmoothnessRemapMin: 0.101454556
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2
     - _SrcBlend: 1

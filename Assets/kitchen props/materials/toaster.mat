@@ -318,7 +318,7 @@ Material:
     - _LobeMix: 0
     - _MaterialFeaturesShow: 1
     - _MaterialID: 1
-    - _Metallic: 0
+    - _Metallic: 1
     - _MetallicMapChannel: 0
     - _MetallicMapShow: 0
     - _MetallicMapUV: 0
@@ -345,7 +345,7 @@ Material:
     - _SSSShow: 0
     - _ShiverDirectionality: 0.5
     - _ShiverDrag: 0.2
-    - _Smoothness: 0.5
+    - _Smoothness: 0.621
     - _SmoothnessA: 0.707
     - _SmoothnessAMapChannel: 0
     - _SmoothnessAMapRemapInverted: 0
@@ -419,12 +419,12 @@ Material:
     - _AnisotropyMapChannelMask: {r: 1, g: 0, b: 0, a: 0}
     - _AnisotropyMapRange: {r: 0, g: 1, b: 0, a: 0}
     - _AnisotropyMapRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
     - _CoatExtinction: {r: 1, g: 1, b: 1, a: 1}
     - _CoatSmoothnessMapChannelMask: {r: 1, g: 0, b: 0, a: 0}
     - _CoatSmoothnessMapRange: {r: 0, g: 1, b: 0, a: 0}
     - _CoatSmoothnessMapRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
     - _DebugAniso: {r: 1, g: 0, b: 0, a: 1000}
     - _DebugEnvLobeMask: {r: 1, g: 1, b: 1, a: 1}
     - _DebugLobeMask: {r: 1, g: 1, b: 1, a: 1}

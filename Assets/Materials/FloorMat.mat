@@ -324,7 +324,7 @@ Material:
     - _SmoothnessBMapShow: 1
     - _SmoothnessBMapUV: 0
     - _SmoothnessBUseMap: 1
-    - _SmoothnessRemapMax: 0.6724706
+    - _SmoothnessRemapMax: 0.8257899
     - _SmoothnessRemapMin: 0.5191303
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2

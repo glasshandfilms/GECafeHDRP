@@ -10,10 +10,10 @@ Material:
   m_Name: StainlessSteelMat
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_ShaderKeywords: _DOUBLESIDED_ON _ENABLE_GEOMETRIC_SPECULAR_AA _MAPPING_TRIPLANAR
-    _MASKMAP _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_DUAL_SPECULAR_LOBE _NORMALMAP
-    _NORMALMAP_TANGENT_SPACE _USE_TRIPLANAR
+    _MASKMAP _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_DUAL_SPECULAR_LOBE
+    _NORMALMAP _NORMALMAP_TANGENT_SPACE _USE_TRIPLANAR
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2000
   stringTagMap: {}
@@ -148,7 +148,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AORemapMax: 1
-    - _AORemapMin: 1
+    - _AORemapMin: 0.888424
     - _ATDistance: 1
     - _AlbedoAffectEmissive: 0
     - _AlphaCutoff: 0.5
@@ -172,7 +172,7 @@ Material:
     - _BaseColorMapUVLocal: 0
     - _BlendMode: 0
     - _CoatIor: 1.5
-    - _CoatMask: 0
+    - _CoatMask: 0.45
     - _CoatNormalMapObjSpace: 0
     - _CoatNormalMapShow: 0
     - _CoatNormalMapUV: 0
@@ -298,7 +298,7 @@ Material:
     - _NormalMapSpace: 0
     - _NormalMapUV: 7
     - _NormalMapUVLocal: 0
-    - _NormalScale: 0.506
+    - _NormalScale: 0.47
     - _PPDLodThreshold: 5
     - _PPDMaxSamples: 15
     - _PPDMinSamples: 5
@@ -325,8 +325,8 @@ Material:
     - _SmoothnessBMapShow: 1
     - _SmoothnessBMapUV: 7
     - _SmoothnessBUseMap: 0
-    - _SmoothnessRemapMax: 0.5672621
-    - _SmoothnessRemapMin: 0.34493572
+    - _SmoothnessRemapMax: 0.8701113
+    - _SmoothnessRemapMin: 0.6477849
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2
     - _SpecularAntiAliasingScreenSpaceVariance: 0.1

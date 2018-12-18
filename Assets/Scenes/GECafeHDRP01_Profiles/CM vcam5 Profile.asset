@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings:
   - {fileID: 114151610072194330}
+  - {fileID: 114609434890590476}
+  - {fileID: 114440755965074912}
 --- !u!114 &114151610072194330
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -35,10 +37,151 @@ MonoBehaviour:
     value: 10
   aperture:
     overrideState: 1
-    value: 1.2
+    value: 2.5
   focalLength:
     overrideState: 1
     value: 50
   kernelSize:
     overrideState: 1
+    value: 1
+--- !u!114 &114440755965074912
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36294f213a8ae45d6ab6623e2f6df49e, type: 3}
+  m_Name: AmplifyOcclusionPostProcessing
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  ApplyMethod:
+    overrideState: 1
+    value: 0
+  SampleCount:
+    overrideState: 1
     value: 3
+  PerPixelNormals:
+    overrideState: 1
+    value: 1
+  Intensity:
+    overrideState: 1
+    value: 0.665
+  Tint:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 1}
+  Radius:
+    overrideState: 1
+    value: 1.3
+  PowerExponent:
+    overrideState: 1
+    value: 1.19
+  Bias:
+    overrideState: 1
+    value: 0.05
+  Thickness:
+    overrideState: 1
+    value: 1
+  Downsample:
+    overrideState: 1
+    value: 1
+  CacheAware:
+    overrideState: 1
+    value: 1
+  FadeEnabled:
+    overrideState: 1
+    value: 1
+  FadeStart:
+    overrideState: 1
+    value: 100
+  FadeLength:
+    overrideState: 1
+    value: 50
+  FadeToIntensity:
+    overrideState: 1
+    value: 0
+  FadeToTint:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 1}
+  FadeToRadius:
+    overrideState: 1
+    value: 2
+  FadeToPowerExponent:
+    overrideState: 1
+    value: 1
+  FadeToThickness:
+    overrideState: 1
+    value: 1
+  BlurEnabled:
+    overrideState: 1
+    value: 1
+  BlurRadius:
+    overrideState: 1
+    value: 4
+  BlurPasses:
+    overrideState: 1
+    value: 4
+  BlurSharpness:
+    overrideState: 1
+    value: 0
+  FilterEnabled:
+    overrideState: 1
+    value: 1
+  FilterBlending:
+    overrideState: 1
+    value: 0.8
+  FilterResponse:
+    overrideState: 1
+    value: 0.489
+--- !u!114 &114609434890590476
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  intensity:
+    overrideState: 1
+    value: 0.32
+  threshold:
+    overrideState: 1
+    value: 1
+  softKnee:
+    overrideState: 1
+    value: 0.5
+  clamp:
+    overrideState: 1
+    value: 65472
+  diffusion:
+    overrideState: 1
+    value: 8.51
+  anamorphicRatio:
+    overrideState: 1
+    value: 1
+  color:
+    overrideState: 1
+    value: {r: 1, g: 1, b: 1, a: 1}
+  fastMode:
+    overrideState: 1
+    value: 0
+  dirtTexture:
+    overrideState: 0
+    value: {fileID: 0}
+    defaultState: 1
+  dirtIntensity:
+    overrideState: 0
+    value: 0

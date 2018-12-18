@@ -108,7 +108,7 @@ MonoBehaviour:
     enableShadow: 1
     enableContactShadows: 1
     enableShadowMask: 1
-    enableSSR: 0
+    enableSSR: 1
     enableSSAO: 1
     enableSubsurfaceScattering: 1
     enableTransmission: 1
@@ -119,7 +119,7 @@ MonoBehaviour:
     diffuseGlobalDimmer: 1
     specularGlobalDimmer: 1
     shaderLitMode: 1
-    enableDepthPrepassWithDeferredRendering: 0
+    enableDepthPrepassWithDeferredRendering: 1
     enableTransparentPrepass: 1
     enableMotionVectors: 1
     enableObjectMotionVectors: 1
@@ -179,7 +179,7 @@ MonoBehaviour:
       reflectionCubemapSize: 128
       reflectionCacheCompressed: 1
       planarReflectionCacheCompressed: 1
-      skyReflectionSize: 256
+      skyReflectionSize: 512
       skyLightingOverrideLayerMask:
         serializedVersion: 2
         m_Bits: 0

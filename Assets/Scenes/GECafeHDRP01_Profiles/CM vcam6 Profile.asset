@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings:
   - {fileID: 114653006372314256}
-  - {fileID: 114219444668208698}
   - {fileID: 114032508916814728}
   - {fileID: 114815475841230754}
+  - {fileID: 114210193339449800}
 --- !u!114 &114032508916814728
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -35,7 +35,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 1.04
+    value: 0.02
   threshold:
     overrideState: 1
     value: 1
@@ -64,7 +64,7 @@ MonoBehaviour:
   dirtIntensity:
     overrideState: 0
     value: 0
---- !u!114 &114219444668208698
+--- !u!114 &114210193339449800
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,25 +73,91 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
-  m_Name: DepthOfField
+  m_Script: {fileID: 11500000, guid: 36294f213a8ae45d6ab6623e2f6df49e, type: 3}
+  m_Name: AmplifyOcclusionPostProcessing
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
-  focusDistance:
-    overrideState: 0
-    value: 10
-  aperture:
-    overrideState: 0
-    value: 5.6
-  focalLength:
-    overrideState: 0
-    value: 50
-  kernelSize:
-    overrideState: 0
+  ApplyMethod:
+    overrideState: 1
+    value: 0
+  SampleCount:
+    overrideState: 1
+    value: 0
+  PerPixelNormals:
+    overrideState: 1
     value: 1
+  Intensity:
+    overrideState: 1
+    value: 0.866
+  Tint:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 1}
+  Radius:
+    overrideState: 1
+    value: 2
+  PowerExponent:
+    overrideState: 1
+    value: 1.8
+  Bias:
+    overrideState: 1
+    value: 0.05
+  Thickness:
+    overrideState: 1
+    value: 1
+  Downsample:
+    overrideState: 1
+    value: 1
+  CacheAware:
+    overrideState: 1
+    value: 1
+  FadeEnabled:
+    overrideState: 1
+    value: 0
+  FadeStart:
+    overrideState: 1
+    value: 100
+  FadeLength:
+    overrideState: 1
+    value: 50
+  FadeToIntensity:
+    overrideState: 1
+    value: 0
+  FadeToTint:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 1}
+  FadeToRadius:
+    overrideState: 1
+    value: 2
+  FadeToPowerExponent:
+    overrideState: 1
+    value: 1
+  FadeToThickness:
+    overrideState: 1
+    value: 1
+  BlurEnabled:
+    overrideState: 1
+    value: 1
+  BlurRadius:
+    overrideState: 1
+    value: 4
+  BlurPasses:
+    overrideState: 1
+    value: 4
+  BlurSharpness:
+    overrideState: 1
+    value: 15
+  FilterEnabled:
+    overrideState: 1
+    value: 1
+  FilterBlending:
+    overrideState: 1
+    value: 0.8
+  FilterResponse:
+    overrideState: 1
+    value: 0.5
 --- !u!114 &114653006372314256
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -163,7 +229,7 @@ MonoBehaviour:
     value: 0
   postExposure:
     overrideState: 1
-    value: 0.47
+    value: 0.18
   contrast:
     overrideState: 1
     value: 10.6

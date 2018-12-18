@@ -22,6 +22,7 @@ MonoBehaviour:
   - {fileID: 114416150543908578}
   - {fileID: 114861737206166616}
   - {fileID: 114308377656924610}
+  - {fileID: 114095393904412968}
 --- !u!114 &114015055215414410
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1333,6 +1334,100 @@ MonoBehaviour:
       - 0.5
       - 0.5
       - 0.5
+--- !u!114 &114095393904412968
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36294f213a8ae45d6ab6623e2f6df49e, type: 3}
+  m_Name: AmplifyOcclusionPostProcessing
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  ApplyMethod:
+    overrideState: 1
+    value: 0
+  SampleCount:
+    overrideState: 1
+    value: 3
+  PerPixelNormals:
+    overrideState: 1
+    value: 1
+  Intensity:
+    overrideState: 1
+    value: 1
+  Tint:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 1}
+  Radius:
+    overrideState: 1
+    value: 0.5
+  PowerExponent:
+    overrideState: 1
+    value: 1.54
+  Bias:
+    overrideState: 1
+    value: 0.971
+  Thickness:
+    overrideState: 1
+    value: 1
+  Downsample:
+    overrideState: 1
+    value: 1
+  CacheAware:
+    overrideState: 1
+    value: 1
+  FadeEnabled:
+    overrideState: 1
+    value: 1
+  FadeStart:
+    overrideState: 1
+    value: 100
+  FadeLength:
+    overrideState: 1
+    value: 50
+  FadeToIntensity:
+    overrideState: 1
+    value: 0
+  FadeToTint:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 1}
+  FadeToRadius:
+    overrideState: 1
+    value: 2
+  FadeToPowerExponent:
+    overrideState: 1
+    value: 1
+  FadeToThickness:
+    overrideState: 1
+    value: 1
+  BlurEnabled:
+    overrideState: 1
+    value: 1
+  BlurRadius:
+    overrideState: 1
+    value: 2
+  BlurPasses:
+    overrideState: 1
+    value: 2
+  BlurSharpness:
+    overrideState: 1
+    value: 19.4
+  FilterEnabled:
+    overrideState: 1
+    value: 1
+  FilterBlending:
+    overrideState: 1
+    value: 0.8
+  FilterResponse:
+    overrideState: 1
+    value: 0.5
 --- !u!114 &114308377656924610
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1383,6 +1478,50 @@ MonoBehaviour:
   sampleCount:
     overrideState: 1
     value: 10
+--- !u!114 &114368320696411326
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b895cbf09630ced4c8a00873ee74b18e, type: 3}
+  m_Name: SsaaSamplingUber
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  sourceTex:
+    overrideState: 1
+    value: {fileID: 0}
+    defaultState: 1
+  useFXAA:
+    overrideState: 1
+    value: 0
+  intensityFXAA:
+    overrideState: 1
+    value: 1
+  shaderPass:
+    overrideState: 1
+    value: 0
+  resizeWidth:
+    overrideState: 1
+    value: 0.5
+  resizeHeight:
+    overrideState: 1
+    value: 0.5
+  sharpness:
+    overrideState: 1
+    value: 0.5
+  sampleDistance:
+    overrideState: 1
+    value: 0.5
+  flip:
+    overrideState: 1
+    value: 0
 --- !u!114 &114416150543908578
 MonoBehaviour:
   m_ObjectHideFlags: 3

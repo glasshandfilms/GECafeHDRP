@@ -104,6 +104,11 @@ ModelImporter:
     100196: Oven_LOD1
     100198: Oven_LOD2
     100200: Oven_LOD3
+    100202: GlassDoor
+    100204: GlassFrame
+    100206: GlassFrameBottom
+    100208: Knobs01
+    100210: OvenFrontPlate
     400000: DisplayFront_grp
     400002: //RootNode
     400004: Graphics_Grp
@@ -205,6 +210,11 @@ ModelImporter:
     400196: Oven_LOD1
     400198: Oven_LOD2
     400200: Oven_LOD3
+    400202: GlassDoor
+    400204: GlassFrame
+    400206: GlassFrameBottom
+    400208: Knobs01
+    400210: OvenFrontPlate
     2100000: lambert1
     2300000: DisplayFront_grp
     2300002: Graphics_Grp
@@ -294,6 +304,11 @@ ModelImporter:
     2300170: WhiteNumbers_LOD1
     2300172: WhiteNumbers_LOD2
     2300174: WhiteNumbers_LOD3
+    2300176: GlassDoor
+    2300178: GlassFrame
+    2300180: GlassFrameBottom
+    2300182: Knobs01
+    2300184: OvenFrontPlate
     3300000: DisplayFront_grp
     3300002: Graphics_Grp
     3300004: HotPads_grp
@@ -382,6 +397,11 @@ ModelImporter:
     3300170: WhiteNumbers_LOD1
     3300172: WhiteNumbers_LOD2
     3300174: WhiteNumbers_LOD3
+    3300176: GlassDoor
+    3300178: GlassFrame
+    3300180: GlassFrameBottom
+    3300182: Knobs01
+    3300184: OvenFrontPlate
     4300000: DisplayFront_grp
     4300002: HotPads_grp
     4300004: Knobs_grp
@@ -470,6 +490,11 @@ ModelImporter:
     4300170: misc_LOD1
     4300172: misc_LOD2
     4300174: misc_LOD3
+    4300176: Knobs01
+    4300178: GlassFrameBottom
+    4300180: GlassDoor
+    4300182: GlassFrame
+    4300184: OvenFrontPlate
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:

@@ -109,6 +109,11 @@ ModelImporter:
     100206: GlassFrameBottom
     100208: Knobs01
     100210: OvenFrontPlate
+    100212: BottomGlass
+    100214: BottomHandle
+    100216: polySurface10
+    100218: TopGlass
+    100220: TopHandle
     400000: DisplayFront_grp
     400002: //RootNode
     400004: Graphics_Grp
@@ -215,6 +220,11 @@ ModelImporter:
     400206: GlassFrameBottom
     400208: Knobs01
     400210: OvenFrontPlate
+    400212: BottomGlass
+    400214: BottomHandle
+    400216: polySurface10
+    400218: TopGlass
+    400220: TopHandle
     2100000: lambert1
     2300000: DisplayFront_grp
     2300002: Graphics_Grp
@@ -309,6 +319,11 @@ ModelImporter:
     2300180: GlassFrameBottom
     2300182: Knobs01
     2300184: OvenFrontPlate
+    2300186: BottomGlass
+    2300188: BottomHandle
+    2300190: polySurface10
+    2300192: TopGlass
+    2300194: TopHandle
     3300000: DisplayFront_grp
     3300002: Graphics_Grp
     3300004: HotPads_grp
@@ -402,6 +417,11 @@ ModelImporter:
     3300180: GlassFrameBottom
     3300182: Knobs01
     3300184: OvenFrontPlate
+    3300186: BottomGlass
+    3300188: BottomHandle
+    3300190: polySurface10
+    3300192: TopGlass
+    3300194: TopHandle
     4300000: DisplayFront_grp
     4300002: HotPads_grp
     4300004: Knobs_grp
@@ -495,6 +515,11 @@ ModelImporter:
     4300180: GlassDoor
     4300182: GlassFrame
     4300184: OvenFrontPlate
+    4300186: BottomHandle
+    4300188: BottomGlass
+    4300190: polySurface10
+    4300192: TopHandle
+    4300194: TopGlass
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:

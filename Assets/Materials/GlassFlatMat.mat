@@ -354,13 +354,13 @@ Material:
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
     - _TextureNormalFilteringEnabled: 0
-    - _Thickness: 0.038
+    - _Thickness: 0.121
     - _ThicknessMapChannel: 0
     - _ThicknessMapRemapInverted: 0
     - _ThicknessMapShow: 0
     - _ThicknessMapUV: 0
     - _ThicknessMapUVLocal: 0
-    - _ThicknessMultiplier: 1
+    - _ThicknessMultiplier: 0
     - _ThicknessUseMap: 0
     - _TransmissionEnable: 1
     - _TransmissionShow: 0

@@ -2161,7 +2161,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -2790,12 +2790,12 @@ MonoBehaviour:
   m_Name: ImageRecorderSettings
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 8
+  take: 10
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
-      m_Root: 0
-      m_Leaf: Recordings
+      m_Root: 5
+      m_Leaf: D:/GEA_HDRP_Recording
       m_ForceAssetFolder: 0
     m_FileName: image_<Frame>
   outputFormat: 1
